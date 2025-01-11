@@ -18,3 +18,32 @@ function getHero(hero: string) {
 }
 hero = getHero('Superman');
 console.log(hero); // Superman
+
+
+
+function addTwo(num: number){
+    return num + 2;
+}
+
+console.log(addTwo(2)); // 4
+
+const getHello = (name: string): string => {
+    return  `Hello ${name}`;
+}
+
+const heros = [`Superman`, `Batman`, `Wonder Woman`];
+
+heros.map(hero => {
+    return `hero is ${hero}`;
+}).forEach(heroMessage => console.log(heroMessage));
+console.log(heros); // [ 'Superman', 'Batman
+
+
+function consoleError(errmsg: string): void {
+    console.log(errmsg);
+}
+
+
+function handleError(errmsg: string): never {
+    throw new Error(errmsg);
+}

@@ -10,4 +10,16 @@ function getHero(hero) {
 }
 hero = getHero('Superman');
 console.log(hero);
+function addTwo(num) {
+    return num + 2;
+}
+console.log(addTwo(2));
+const getHello = (name) => {
+    return `Hello ${name}`;
+};
+const heros = [`Superman`, `Batman`, `Wonder Woman`];
+heros.map(hero => {
+    return `hero is ${hero}`;
+}).forEach(heroMessage => console.log(heroMessage));
+console.log(heros);
 //# sourceMappingURL=variableMe.js.map
