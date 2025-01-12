@@ -22,4 +22,10 @@ heros.map(hero => {
     return `hero is ${hero}`;
 }).forEach(heroMessage => console.log(heroMessage));
 console.log(heros);
+function consoleError(errmsg) {
+    console.log(errmsg);
+}
+function handleError(errmsg) {
+    throw new Error(errmsg);
+}
 //# sourceMappingURL=variableMe.js.map
