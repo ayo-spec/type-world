@@ -31,22 +31,22 @@
 // }
 
 
-type User = {
-    readonly _id: string;
-    name: string;
-    email: string;
-    isActive: boolean;
-    creditCardDetails: number
-}
+// type User = {
+//     readonly _id: string;
+//     name: string;
+//     email: string;
+//     isActive: boolean;
+//     creditCardDetails: number
+// }
 
 
-let myUser: User = {
-    _id: '1234',
-    name: 'Ayomide',
-    email: 'ayo@gmail.com', 
-    isActive: false, 
-    creditCardDetails: 1234567890
-}
+// let myUser: User = {
+//     _id: '1234',
+//     name: 'Ayomide',
+//     email: 'ayo@gmail.com', 
+//     isActive: false, 
+//     creditCardDetails: 1234567890
+// }
 
 
 
@@ -62,5 +62,5 @@ type cardDetails = cardNumber & cardDate & {
     cvv: number
 }
 
-myUser.email = 'ayo@gmail.com';
+// myUser.email = 'ayo@gmail.com';
 // myUser._id = 'asa'
